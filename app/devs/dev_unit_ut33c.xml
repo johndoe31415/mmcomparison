@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- "enteredbymail" attribute of "device" node is obfuscated to protect email addresses from spambots.
+     Subtract 1 from ASCII value for each character to get actual string. -->
+<device vendor="Uni-T" name="UT33C" counts="2000" source="UT33C Manual" enteredby="Les Nagy" enteredbymail="mobhzAuifmjhiubhft/dpn"> 
+	<range name="DCV">
+		<interval maxvalue="2.000000e-1" resolution="1.000000e-4" errorpercent="5.000000e-1" errorcounts="2.000000e+0" />
+		<interval maxvalue="2.000000e+0" resolution="1.000000e-3" errorpercent="5.000000e-1" errorcounts="2.000000e+0" />
+		<interval maxvalue="2.000000e+1" resolution="1.000000e-2" errorpercent="5.000000e-1" errorcounts="2.000000e+0" />
+		<interval maxvalue="2.000000e+2" resolution="1.000000e-1" errorpercent="5.000000e-1" errorcounts="2.000000e+0" />
+		<interval maxvalue="5.000000e+2" resolution="1.000000e+0" errorpercent="8.000000e-1" errorcounts="2.000000e+0" />
+	</range>
+	<range name="ACV" comment="45 Hz - 1 kHz">
+		<interval maxvalue="2.000000e+2" resolution="1.000000e-1" errorpercent="1.200000e+0" errorcounts="1.000000e+1" />
+		<interval maxvalue="5.000000e+2" resolution="1.000000e+0" errorpercent="1.200000e+0" errorcounts="1.000000e+1" />
+	</range>
+	<range name="DCA">
+		<interval maxvalue="2.000000e-3" resolution="1.000000e-6" errorpercent="1.000000e+0" errorcounts="2.000000e+0" />
+		<interval maxvalue="2.000000e-2" resolution="1.000000e-5" errorpercent="1.000000e+0" errorcounts="2.000000e+0" />
+		<interval maxvalue="2.000000e-1" resolution="1.000000e-4" errorpercent="1.200000e+0" errorcounts="2.000000e+0" />
+		<interval maxvalue="1.000000e+1" resolution="1.000000e-2" errorpercent="2.000000e+0" errorcounts="5.000000e+0" />
+	</range>
+	<range name="Ohm">
+		<interval maxvalue="2.000000e+2" resolution="1.000000e-1" errorpercent="8.000000e-1" errorcounts="5.000000e+0" />
+		<interval maxvalue="2.000000e+3" resolution="1.000000e+0" errorpercent="8.000000e-1" errorcounts="2.000000e+0" />
+		<interval maxvalue="2.000000e+4" resolution="1.000000e+1" errorpercent="8.000000e-1" errorcounts="2.000000e+0" />
+		<interval maxvalue="2.000000e+5" resolution="1.000000e+2" errorpercent="8.000000e-1" errorcounts="2.000000e+0" />
+		<interval maxvalue="2.000000e+7" resolution="1.000000e+4" errorpercent="1.000000e+0" errorcounts="5.000000e+0" />
+	</range>
+</device>

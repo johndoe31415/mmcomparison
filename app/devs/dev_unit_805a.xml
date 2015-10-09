@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This XML file is subject to the terms of the Creative Commons BY-NC-SA v3.0 license,
+	 which can be found at http://creativecommons.org/licenses/by-nc-sa/3.0/
+-->
+<!-- "enteredmail" attribute of "device" node is obfuscated to protect email addresses from spambots.
+     Subtract 1 from ASCII value for each character to get actual string. -->
+<device vendor="Uni-T" name="UT805A" counts="200000" source="UT805A Manual" srcurl="http://www.pinsonne-elektronik.de/media/daten/UT805A%20engl%20Manual2.pdf" enteredby="Johannes Bauer" enteredbymail="KpibooftCbvfsAhny/ef"> 
+	<range name="DCV">
+		<interval maxvalue="200e-3" resolution="1e-6" errorpercent="0.015" errorcounts="4" />
+		<interval maxvalue="2" resolution="10e-6" errorpercent="0.015" errorcounts="3" />
+		<interval maxvalue="20" resolution="100e-6" errorpercent="0.015" errorcounts="4" />
+		<interval maxvalue="200" resolution="1e-3" errorpercent="0.015" errorcounts="3" />
+		<interval maxvalue="1000" resolution="10e-3" errorpercent="0.015" errorcounts="3" />
+	</range>
+
+	<range name="ACV" comment="40Hz - 10kHz">
+		<interval maxvalue="200e-3" resolution="1e-6" errorpercent="0.2" errorcounts="100" />
+		<interval maxvalue="2" resolution="10e-6" errorpercent="0.2" errorcounts="100" />
+		<interval maxvalue="20" resolution="100e-6" errorpercent="0.2" errorcounts="100" />
+		<interval maxvalue="200" resolution="1e-3" errorpercent="0.2" errorcounts="100" />
+		<interval maxvalue="750" resolution="10e-3" errorpercent="0.3" errorcounts="100" />
+	</range>
+
+	<range name="DCA">
+		<interval maxvalue="2e-3" resolution="0.01e-6" errorpercent="0.03" errorcounts="10" />
+		<interval maxvalue="200e-3" resolution="1e-6" errorpercent="0.03" errorcounts="10" />
+		<interval maxvalue="10" resolution="0.1e-3" errorpercent="0.8" errorcounts="60" />
+	</range>
+
+	<range name="ACA" comment="40Hz - 5kHz">
+		<interval maxvalue="2e-3" resolution="0.01e-6" errorpercent="0.3" errorcounts="100" />
+		<interval maxvalue="200e-3" resolution="1e-6" errorpercent="0.3" errorcounts="100" />
+		<interval maxvalue="10" resolution="0.1e-3" errorpercent="2" errorcounts="200" />
+	</range>
+
+	<range name="Ohm">
+		<interval maxvalue="200" resolution="0.001" errorpercent="0.08" errorcounts="50" />
+		<interval maxvalue="2e3" resolution="0.01" errorpercent="0.02" errorcounts="6" />
+		<interval maxvalue="20e3" resolution="0.1" errorpercent="0.02" errorcounts="6" />
+		<interval maxvalue="200e3" resolution="1" errorpercent="0.02" errorcounts="6" />
+		<interval maxvalue="2e6" resolution="10" errorpercent="0.04" errorcounts="8" />
+		<interval maxvalue="20e6" resolution="100" errorpercent="0.4" errorcounts="6" />
+	</range>
+
+	<range name="F">
+		<interval maxvalue="60e-9" resolution="10e-12" errorpercent="2" errorcounts="5" />
+		<interval maxvalue="600e-9" resolution="100e-12" errorpercent="2" errorcounts="5" />
+		<interval maxvalue="60e-6" resolution="10e-9" errorpercent="3" errorcounts="5" />
+		<interval maxvalue="600e-6" resolution="100e-9" errorpercent="5" errorcounts="5" />
+	</range>
+	
+	<range name="Hz">
+		<interval maxvalue="6e3" resolution="1" errorpercent="0.1" errorcounts="3" />
+		<interval maxvalue="60e3" resolution="10" errorpercent="0.1" errorcounts="3" />
+		<interval maxvalue="600e3" resolution="100" errorpercent="0.1" errorcounts="3" />
+		<interval maxvalue="6e6" resolution="1e3" errorpercent="0.1" errorcounts="3" />
+		<interval maxvalue="60e6" resolution="10e3" errorpercent="0.1" errorcounts="3" />
+	</range>
+</device>

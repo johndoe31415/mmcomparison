@@ -1,0 +1,107 @@
+h2, div, span, table {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+span.label {
+	font-weight: bold;
+	margin: 20px;
+}
+
+#placeholder {
+	width: 800px;
+	height: 600px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+div.optiongroup {
+  margin: 20px 0px 20px 25px;
+  padding: 0;
+  float: left;
+}
+
+div.optiongroupscroll {
+  margin: 20px 0px 20px 25px;
+  padding: 0px 10px 10px 0px;
+  float: left;
+  overflow-y: scroll;
+  height: 300px;
+}
+
+div.label {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+div.message {
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 20px;
+}
+
+ul.radio  {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  list-style: none;
+}
+
+ul.radio li {
+  border: 1px transparent solid;
+}
+
+iframe.hidden {
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
+
+input[type="text"], textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #666666;
+    color: #333333;
+}
+
+input[type="button"] {
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #666666;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 27px;
+    margin: 10px 0px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td {
+	padding: 4px 12px 2px 0px;
+}
+
+/* Whole left column is bold */
+table.edit tr td:first-child {
+	font-weight: bold;
+}
+
+/* Whole top row is bold */
+table.list tr:first-child {
+	font-weight: bold;
+}
+
+table.list tr:first-child td {
+	border-bottom: 1px solid;
+}

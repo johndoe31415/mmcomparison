@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<device counts="30000" enteredby="Johannes Bauer" enteredbymail="KpibooftCbvfsAhny/ef" name="45" source="Fluke 45 Service Manual" srcurl="http://www.tabalabs.com.br/eletronica/fluke45/fluke45_service_manual.pdf" vendor="Fluke">
+	<range comment="30000 count mode, Medium Speed, 6 months" name="DCV">
+		<interval errorcounts="2" errorpercent="0.02" maxvalue="300e-3" resolution="10e-6" />
+		<interval errorcounts="2" errorpercent="0.02" maxvalue="3" resolution="100e-6" />
+		<interval errorcounts="2" errorpercent="0.02" maxvalue="30" resolution="1e-3" />
+		<interval errorcounts="2" errorpercent="0.02" maxvalue="300" resolution="10e-3" />
+		<interval errorcounts="2" errorpercent="0.02" maxvalue="1000" resolution="100e-3" />
+	</range>
+	<range comment="30000 count mode, Medium Speed, 6 months, 50Hz - 10kHz" name="ACV">
+		<interval errorcounts="10" errorpercent="0.2" maxvalue="300e-3" resolution="10e-6" />
+		<interval errorcounts="10" errorpercent="0.2" maxvalue="3" resolution="100e-6" />
+		<interval errorcounts="10" errorpercent="0.2" maxvalue="30" resolution="1e-3" />
+		<interval errorcounts="10" errorpercent="0.2" maxvalue="300" resolution="10e-3" />
+		<interval errorcounts="10" errorpercent="0.2" maxvalue="1000" resolution="100e-3" />
+	</range>
+	<range comment="30000 count mode, Medium Speed" name="DCA">
+		<interval errorcounts="3" errorpercent="0.05" maxvalue="30e-3" resolution="1e-6" />
+		<interval errorcounts="2" errorpercent="0.05" maxvalue="100e-3" resolution="10e-6" />
+		<interval errorcounts="5" errorpercent="0.2" maxvalue="10" resolution="1e-3" />
+	</range>
+	<range comment="30000 count mode, Medium Speed, 50Hz - 2kHz, unsure about 100mA-500mA" name="ACA">
+		<interval errorcounts="10" errorpercent="0.5" maxvalue="30e-3" resolution="1e-6" />
+		<interval errorcounts="10" errorpercent="0.5" maxvalue="100e-3" resolution="10e-6" />
+		<interval errorcounts="30" errorpercent="1" maxvalue="1" resolution="1e-3" />
+		<interval errorcounts="10" errorpercent="1" maxvalue="10" resolution="1e-3" />
+	</range>
+	<range comment="30000 count mode, Medium Speed" name="Ohm">
+		<interval errorcounts="2" errorpercent="0.05" maxvalue="300" resolution="10e-3" />
+		<interval errorcounts="2" errorpercent="0.05" maxvalue="3e3" resolution="100e-3" />
+		<interval errorcounts="2" errorpercent="0.05" maxvalue="30e3" resolution="1" />
+		<interval errorcounts="2" errorpercent="0.05" maxvalue="300e3" resolution="10" />
+		<interval errorcounts="2" errorpercent="0.06" maxvalue="3e6" resolution="100" />
+		<interval errorcounts="3" errorpercent="0.25" maxvalue="30e6" resolution="1e3" />
+		<interval errorcounts="0" errorpercent="2" maxvalue="300e6" resolution="100e3" />
+	</range>
+	<range name="Hz">
+		<interval errorcounts="2" errorpercent="0.05" maxvalue="1000" resolution="0.01" />
+		<interval errorcounts="1" errorpercent="0.05" maxvalue="10e3" resolution="0.1" />
+		<interval errorcounts="1" errorpercent="0.05" maxvalue="100e3" resolution="1" />
+		<interval errorcounts="1" errorpercent="0.05" maxvalue="1000e3" resolution="10" />
+	</range>
+</device>

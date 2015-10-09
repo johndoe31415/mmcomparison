@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This XML file is subject to the terms of the Creative Commons BY-NC-SA v3.0 license,
+	 which can be found at http://creativecommons.org/licenses/by-nc-sa/3.0/
+-->
+<device counts="51000" enteredby="Johannes Bauer" enteredbymail="KpibooftCbvfsAhny/ef" name="TH1942" source="TH1942/TH1942 Digit Multimeter" srcurl="http://www.pinsonne-elektronik.de/media/daten/th1941_TH1942.pdf" vendor="Tonghui">
+	<range name="DCV">
+		<interval errorfullscale="0.016" errorpercent="0.02" maxvalue="510e-3" resolution="10e-6" />
+		<interval errorfullscale="0.008" errorpercent="0.02" maxvalue="5.1" resolution="100e-6" />
+		<interval errorfullscale="0.008" errorpercent="0.02" maxvalue="51" resolution="1e-3" />
+		<interval errorfullscale="0.008" errorpercent="0.02" maxvalue="510" resolution="10e-3" />
+		<interval errorfullscale="0.008" errorpercent="0.02" maxvalue="1200" resolution="100e-3" />
+	</range>
+	<range name="DCA">
+		<interval errorfullscale="0.010" errorpercent="0.05" maxvalue="5.1e-3" resolution="0.1e-6" />
+		<interval errorfullscale="0.008" errorpercent="0.05" maxvalue="51e-3" resolution="1e-6" />
+		<interval errorfullscale="0.008" errorpercent="0.05" maxvalue="510e-3" resolution="10e-6" />
+		<interval errorfullscale="0.010" errorpercent="0.25" maxvalue="5.1" resolution="100e-6" />
+		<interval errorfullscale="0.010" errorpercent="0.25" maxvalue="20" resolution="1e-3" />
+	</range>
+	<range comment="50Hz - 20kHz" name="ACV">
+		<interval errorfullscale="0.06" errorpercent="0.5" maxvalue="500e-3" resolution="10e-6" />
+		<interval errorfullscale="0.02" errorpercent="0.35" maxvalue="5" resolution="100e-6" />
+		<interval errorfullscale="0.02" errorpercent="0.35" maxvalue="50" resolution="1e-3" />
+		<interval errorfullscale="0.03" errorpercent="0.5" maxvalue="500" resolution="10e-3" />
+		<interval errorfullscale="0.03" errorpercent="0.5" maxvalue="750" resolution="100e-3" />
+	</range>
+	<range comment="50Hz - 2kHz" name="ACA">
+		<interval errorfullscale="0.08" errorpercent="0.5" maxvalue="5e-3" resolution="0.1e-6" />
+		<interval errorfullscale="0.08" errorpercent="0.5" maxvalue="50e-3" resolution="1e-6" />
+		<interval errorfullscale="0.08" errorpercent="0.5" maxvalue="500e-3" resolution="10e-6" />
+		<interval errorfullscale="0.1" errorpercent="0.5" maxvalue="5" resolution="100e-6" />
+		<interval errorfullscale="0.1" errorpercent="0.5" maxvalue="20" resolution="1e-3" />
+	</range>
+	<range name="Ohm">
+		<interval errorfullscale="0.010" errorpercent="0.1" maxvalue="510" resolution="10e-3" />
+		<interval errorfullscale="0.008" errorpercent="0.1" maxvalue="5.1e3" resolution="100e-3" />
+		<interval errorfullscale="0.008" errorpercent="0.1" maxvalue="51e3" resolution="1" />
+		<interval errorfullscale="0.008" errorpercent="0.1" maxvalue="510e3" resolution="10" />
+		<interval errorfullscale="0.008" errorpercent="0.15" maxvalue="5.1e6" resolution="100" />
+		<interval errorfullscale="0.010" errorpercent="0.3" maxvalue="51e6" resolution="1e3" />
+	</range>
+	<range name="Hz">
+		<interval errorfullscale="0.02" errorpercent="0.01" maxvalue="510" resolution="0.01" />
+		<interval errorfullscale="0.02" errorpercent="0.01" maxvalue="5.1e3" resolution="0.1" />
+		<interval errorfullscale="0.008" errorpercent="0.01" maxvalue="51e3" resolution="1" />
+		<interval errorfullscale="0.008" errorpercent="0.01" maxvalue="999.99e3" resolution="10" />
+	</range>
+</device>

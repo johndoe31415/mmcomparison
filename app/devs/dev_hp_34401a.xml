@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This XML file is subject to the terms of the Creative Commons BY-NC-SA v3.0 license,
+	 which can be found at http://creativecommons.org/licenses/by-nc-sa/3.0/
+-->
+<!-- "enteredmail" attribute of "device" node is obfuscated to protect email addresses from spambots.
+     Subtract 1 from ASCII value for each character to get actual string. -->
+<device vendor="Agilent" name="34401A" counts="1000000" source="34401A Multimeter Data Sheet" srcurl="http://www.home.agilent.com/agilent/redirector.jspx?action=ref&amp;cname=AGILENT_EDITORIAL&amp;ckey=1000070110%3Aepsg%3Adow&amp;lc=ger&amp;cc=DE&amp;nfr=-536902435.536880933.00" enteredby="Johannes Bauer" enteredbymail="KpibooftCbvfsAhny/ef"> 
+	<range name="DCV" comment="24h">
+		<interval maxvalue="100e-3" resolution="0.0001e-3" errorpercent="0.003" errorfullscale="0.0030" />
+		<interval maxvalue="1" resolution="0.000001" errorpercent="0.002" errorfullscale="0.0006" />
+		<interval maxvalue="10" resolution="0.00001" errorpercent="0.0015" errorfullscale="0.0004" />
+		<interval maxvalue="100" resolution="0.0001" errorpercent="0.002" errorfullscale="0.0006" />
+		<interval maxvalue="1000" resolution="0.001" errorpercent="0.002" errorfullscale="0.0006" />
+	</range>
+
+	<range name="DCA" comment="24h">
+		<interval maxvalue="10e-3" resolution="0.00001e-3" errorpercent="0.005" errorfullscale="0.0010" />
+		<interval maxvalue="100e-3" resolution="0.0001e-3" errorpercent="0.01" errorfullscale="0.004" />
+		<interval maxvalue="1" resolution="0.000001" errorpercent="0.05" errorfullscale="0.006" />
+		<interval maxvalue="3" resolution="0.000001" errorpercent="0.10" errorfullscale="0.020" />
+	</range>
+
+	<range name="Ohm" comment="24h">
+		<interval maxvalue="100" resolution="0.0001" errorpercent="0.003" errorfullscale="0.0030" />
+		<interval maxvalue="1e3" resolution="0.000001e3" errorpercent="0.002" errorfullscale="0.0005" />
+		<interval maxvalue="10e3" resolution="0.00001e3" errorpercent="0.002" errorfullscale="0.0005" />
+		<interval maxvalue="100e3" resolution="0.0001e3" errorpercent="0.002" errorfullscale="0.0005" />
+		<interval maxvalue="1e6" resolution="0.000001e6" errorpercent="0.002" errorfullscale="0.001" />
+		<interval maxvalue="10e6" resolution="0.00001e6" errorpercent="0.0015" errorfullscale="0.001" />
+		<interval maxvalue="100e6" resolution="0.0001e6" errorpercent="0.3" errorfullscale="0.010" />
+	</range>
+
+	<range name="ACV" comment="24h, 10Hz - 20kHz">
+		<interval maxvalue="100e-3" resolution="0.0001e-3" errorpercent="0.04" errorfullscale="0.03" />
+		<interval maxvalue="1" resolution="0.000001" errorpercent="0.04" errorfullscale="0.02" />
+		<interval maxvalue="10" resolution="0.00001" errorpercent="0.04" errorfullscale="0.02" />
+		<interval maxvalue="100" resolution="0.0001" errorpercent="0.04" errorfullscale="0.02" />
+		<interval maxvalue="750" resolution="0.001" errorpercent="0.04" errorfullscale="0.02" />
+	</range>
+
+	<range name="ACA" comment="24h, 10Hz - 5kHz">
+		<interval maxvalue="1" resolution="0.000001" errorpercent="0.1" errorfullscale="0.04" />
+		<interval maxvalue="3" resolution="0.00001" errorpercent="0.15" errorfullscale="0.06" />
+	</range>
+</device>

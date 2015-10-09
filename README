@@ -1,0 +1,17 @@
+This is a small JavaScript application that lets you compare various properties
+of different multimeters.
+
+An example of the application in action can be seen at:
+
+http://johannes-bauer.com/electronics/mmcomparison/app/index.html
+
+All *code* that is authored by me (indicated by the file header) is released
+under the GNU GPL-3, see the LICENSE file.
+
+All *metadata* that describes the multimeter parameters is subject to the terms
+of the Creative Commons BY-NC-SA v3.0 license.
+
+All code that is externally included is under the license of the respective
+copyright holders. External references are:
+   * jquery
+   * jqplot

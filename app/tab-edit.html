@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<link rel="stylesheet" type="text/css" href="jqplot/jquery.jqplot.min.css" />
+		<link rel="stylesheet" type="text/css" href="multimeter.css" />
+	</head> 
+	<body>
+		<div class="message" id="message"></div>
+
+		<table class="edit">
+			<tr>
+				<td>Vendor:</td>
+				<td><div id="vendor">-</div></td>
+			</tr>
+			<tr>
+				<td>Device:</td>
+				<td><div id="device">-</div></td>
+			</tr>
+			<tr>
+				<td>Counts:</td>
+				<td><div id="counts">-</div></td>
+			</tr>
+			<tr>
+				<td>Entered By:</td>
+				<td><div id="enteredby">-</div></td>
+			</tr>
+			<tr>
+				<td>Data Source:</td>
+				<td><div id="datasource">-</div></td>
+			</tr>
+			<tr>
+				<td>XML:</td>
+				<td><textarea id="xmlarea" cols="100" rows="10"></textarea></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>
+					<input type="button" value="Export XML" onclick="parent.controller.eventExportXML()" />
+					<input type="button" value="Import XML" onclick="parent.controller.eventImportXML()" />
+					<input type="button" value="Create Device" onclick="parent.controller.eventNewDevice()" />
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+

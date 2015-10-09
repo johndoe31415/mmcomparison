@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<device counts="6000" enteredby="Johannes Bauer" enteredbymail="KpibooftCbvfsAhny/ef" name="177/179" source="Fluke 170 Series True-rms Digital Multimeter Extended Specifications " srcurl="http://assets.fluke.com/datasheets/2155a.pdf" vendor="Fluke">
+	<range comment="45 Hz - 500 Hz" name="ACV">
+		<interval errorcounts="3" errorpercent="1" maxvalue="600e-3" resolution="0.1e-3" />
+		<interval errorcounts="3" errorpercent="1" maxvalue="6" resolution="0.001" />
+		<interval errorcounts="3" errorpercent="1" maxvalue="60" resolution="0.01" />
+		<interval errorcounts="3" errorpercent="1" maxvalue="600" resolution="0.1" />
+		<interval errorcounts="3" errorpercent="1" maxvalue="1000" resolution="1" />
+	</range>
+	<range comment="40Hz - 1kHz" name="DCV">
+		<interval errorcounts="2" errorpercent="0.09" maxvalue="600e-3" resolution="0.1e-3" />
+		<interval errorcounts="2" errorpercent="0.09" maxvalue="6" resolution="0.001" />
+		<interval errorcounts="2" errorpercent="0.09" maxvalue="60" resolution="0.01" />
+		<interval errorcounts="2" errorpercent="0.09" maxvalue="600" resolution="0.1" />
+		<interval errorcounts="2" errorpercent="0.1" maxvalue="1000" resolution="1" />
+	</range>
+	<range name="DCA">
+		<interval errorcounts="3" errorpercent="1" maxvalue="60e-3" resolution="0.01e-3" />
+		<interval errorcounts="3" errorpercent="1" maxvalue="400e-3" resolution="0.1e-3" />
+		<interval errorcounts="3" errorpercent="1" maxvalue="6" resolution="0.001" />
+		<interval errorcounts="3" errorpercent="1" maxvalue="10" resolution="0.01" />
+	</range>
+	<range comment="45 Hz - 1 kHz" name="ACA">
+		<interval errorcounts="3" errorpercent="1.5" maxvalue="60e-3" resolution="0.01e-3" />
+		<interval errorcounts="3" errorpercent="1.5" maxvalue="400e-3" resolution="0.1e-3" />
+		<interval errorcounts="3" errorpercent="1.5" maxvalue="6" resolution="0.001" />
+		<interval errorcounts="3" errorpercent="1.5" maxvalue="10" resolution="0.01" />
+	</range>
+	<range name="Ohm">
+		<interval errorcounts="2" errorpercent="0.9" maxvalue="600" resolution="0.1" />
+		<interval errorcounts="1" errorpercent="0.9" maxvalue="6e3" resolution="0.001e3" />
+		<interval errorcounts="1" errorpercent="0.9" maxvalue="60e3" resolution="0.01e3" />
+		<interval errorcounts="1" errorpercent="0.9" maxvalue="600e3" resolution="0.1e3" />
+		<interval errorcounts="1" errorpercent="0.9" maxvalue="6e6" resolution="0.001e6" />
+		<interval errorcounts="3" errorpercent="1.5" maxvalue="50e6" resolution="0.01e6" />
+	</range>
+	<range name="F">
+		<interval errorcounts="2" errorpercent="1.2" maxvalue="1000e-9" resolution="1e-9" />
+		<interval errorcounts="2" errorpercent="1.2" maxvalue="10e-6" resolution="0.01e-6" />
+		<interval errorcounts="2" errorpercent="1.2" maxvalue="100e-6" resolution="0.1e-6" />
+		<interval errorcounts="0" errorpercent="10" maxvalue="9999e-9" resolution="1e-6" />
+	</range>
+	<range name="Hz">
+		<interval errorcounts="1" errorpercent="0.1" maxvalue="99.99" resolution="0.01" />
+		<interval errorcounts="1" errorpercent="0.1" maxvalue="999.9" resolution="0.1" />
+		<interval errorcounts="1" errorpercent="0.1" maxvalue="9.999e3" resolution="0.001e3" />
+		<interval errorcounts="1" errorpercent="0.1" maxvalue="99.99e3" resolution="0.01e3" />
+	</range>
+</device>

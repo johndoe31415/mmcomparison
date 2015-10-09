@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<devices>
+	<device href="dev_hp_34401a.xml" name="34401A" vendor="Agilent" />
+	<device href="dev_hp_34405a.xml" name="34405A" vendor="Agilent" />
+	<device href="dev_agilent_1241b.xml" name="U1241B" vendor="Agilent" />
+	<device href="dev_brymen_dm869.xml" name="DM869" vendor="Brymen" />
+	<device href="dev_escort_elc131d.xml" name="ELC-131D" vendor="Escort" />
+	<device href="dev_fluke_175.xml" name="175" vendor="Fluke" />
+	<device href="dev_fluke_177-179.xml" name="177/179" vendor="Fluke" />
+	<device href="dev_fluke_45.xml" name="45" vendor="Fluke" />
+	<device href="dev_fluke_83v.xml" name="83V" vendor="Fluke" />
+	<device href="dev_fluke_87v.xml" name="87V" vendor="Fluke" />
+	<device href="dev_rshack_22-807.xml" name="22-807" vendor="Radio Shack" />
+	<device href="dev_th_1942.xml" name="TH1942" vendor="Tonghui" />
+	<device href="dev_th_1951.xml" name="TH1951" vendor="Tonghui" />
+	<device href="dev_uei_dm397.xml" name="DM397" vendor="UEi" />
+	<device href="dev_unit_ut10a.xml" name="UT10A" vendor="Uni-T" />
+	<device href="dev_unit_ut204a.xml" name="UT204A" vendor="Uni-T" />
+	<device href="dev_unit_ut33c.xml" name="UT33C" vendor="Uni-T" />
+	<device href="dev_unit_60h.xml" name="UT60H" vendor="Uni-T" />
+	<device href="dev_unit_61e.xml" name="UT61E" vendor="Uni-T" />
+	<device href="dev_unit_70d.xml" name="UT70D" vendor="Uni-T" />
+	<device href="dev_unit_71e.xml" name="UT71E" vendor="Uni-T" />
+	<device href="dev_unit_803.xml" name="UT803" vendor="Uni-T" />
+	<device href="dev_unit_805a.xml" name="UT805A" vendor="Uni-T" />
+	<device href="dev_vcraft_vc9806.xml" name="VC9806+" vendor="Victor" />
+</devices>
